@@ -30,9 +30,9 @@ homeModule.config([
                     $scope.downloadedFiles = {val: 0};
                     $scope.totalFiles = {val: 0};
 
-                    var templateUrl = "https?://github.com/.+/.+";
+                    var templateUrl = "https?://github.com/Altium-Designer-addons/.+";
                     var downloadUrlInfix = "#/home?url=";
-                    var downloadUrlPrefix = "https://minhaskamal.github.io/DownGit/"+downloadUrlInfix;
+                    var downloadUrlPrefix = "https://altium-designer-addons.github.io/DownGit/"+downloadUrlInfix;
 
                     if ($routeParams.url) {
                         $scope.url = $routeParams.url;
